@@ -1,0 +1,113 @@
+{
+  "package": "healthcare",
+  "templates": {
+    "clinical_dataset": {
+      "asset_kind": "clinical_dataset",
+      "default_right_actions": [
+        "INSPECT",
+        "READ",
+        "DERIVE"
+      ],
+      "economic_value_invented": false,
+      "object_type": "DATASET",
+      "package": "healthcare",
+      "package_version": "1.0",
+      "privacy_defaults": {
+        "default": "RESTRICTED_DISCLOSURE",
+        "minimum_data": true,
+        "purpose_bound": true
+      },
+      "profile_is_not_authority": true,
+      "profile_refs": [
+        "entity-profile:global@1.0",
+        "entity-profile:healthcare@1.0"
+      ],
+      "required_evidence_types": [
+        "DOCUMENT",
+        "REGISTRY_RECORD"
+      ],
+      "schema": "entity-v3-industry-asset-template-v1"
+    },
+    "clinical_document": {
+      "asset_kind": "clinical_document",
+      "default_right_actions": [
+        "INSPECT",
+        "READ",
+        "DERIVE"
+      ],
+      "economic_value_invented": false,
+      "object_type": "DOCUMENT",
+      "package": "healthcare",
+      "package_version": "1.0",
+      "privacy_defaults": {
+        "default": "RESTRICTED_DISCLOSURE",
+        "minimum_data": true,
+        "purpose_bound": true
+      },
+      "profile_is_not_authority": true,
+      "profile_refs": [
+        "entity-profile:global@1.0",
+        "entity-profile:healthcare@1.0"
+      ],
+      "required_evidence_types": [
+        "DOCUMENT",
+        "REGISTRY_RECORD"
+      ],
+      "schema": "entity-v3-industry-asset-template-v1"
+    },
+    "diagnostic_model": {
+      "asset_kind": "diagnostic_model",
+      "default_right_actions": [
+        "INSPECT",
+        "READ",
+        "DERIVE"
+      ],
+      "economic_value_invented": false,
+      "object_type": "MODEL",
+      "package": "healthcare",
+      "package_version": "1.0",
+      "privacy_defaults": {
+        "default": "RESTRICTED_DISCLOSURE",
+        "minimum_data": true,
+        "purpose_bound": true
+      },
+      "profile_is_not_authority": true,
+      "profile_refs": [
+        "entity-profile:global@1.0",
+        "entity-profile:healthcare@1.0"
+      ],
+      "required_evidence_types": [
+        "DOCUMENT",
+        "REGISTRY_RECORD"
+      ],
+      "schema": "entity-v3-industry-asset-template-v1"
+    },
+    "medical_device": {
+      "asset_kind": "medical_device",
+      "default_right_actions": [
+        "INSPECT",
+        "READ",
+        "DERIVE"
+      ],
+      "economic_value_invented": false,
+      "object_type": "DEVICE",
+      "package": "healthcare",
+      "package_version": "1.0",
+      "privacy_defaults": {
+        "default": "RESTRICTED_DISCLOSURE",
+        "minimum_data": true,
+        "purpose_bound": true
+      },
+      "profile_is_not_authority": true,
+      "profile_refs": [
+        "entity-profile:global@1.0",
+        "entity-profile:healthcare@1.0"
+      ],
+      "required_evidence_types": [
+        "DOCUMENT",
+        "REGISTRY_RECORD"
+      ],
+      "schema": "entity-v3-industry-asset-template-v1"
+    }
+  }
+}

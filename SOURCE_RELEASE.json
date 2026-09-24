@@ -1,0 +1,16 @@
+{
+  "claim_boundary": "Package verification proves ENTITY package integrity/semantics; it does not establish objective external truth, legal title, accounting fair value or regulatory compliance.",
+  "core_registry_sha256": "d59e93c0569b0c21bbb214da1afb567ad02324f581e1a2bfb2460a9c38ca7295",
+  "domain": "healthcare",
+  "global_passport_result_sha256": "ac7504cce70576008cff069607619660a4b9bf0cad43b3f3de81078f1e80d9ba",
+  "package_sha256": "b4e901ce37f696fa10666839cb8d3cacbd1fe663070667ca1767a6245e7cf939",
+  "publication_model": "one ENTITY Global Passport plus dedicated executable domain repositories",
+  "release_snapshot_sha256": "3ff0e51ca2daabf50bc517e9c6e3438e8c150f1560cca6c99621621e3c855a90",
+  "repository": "blackmore-technology-group/ENTITY-HEALTHCARE",
+  "schema": "entity-v3-4-domain-repository-source-v1",
+  "source_branch": "entity-v3.4.0-development",
+  "source_head_commit": "2d7529fbadb4dd04840d62b751294bf9a7f70ed5",
+  "source_pr": 41,
+  "source_repository": "blackmore-technology-group/ENTITY",
+  "version": "3.4.0"
+}

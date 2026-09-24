@@ -1,0 +1,28 @@
+{
+  "external_standards_are_mapped_not_redefined": true,
+  "mappings": [
+    {
+      "external_standard_not_redefined": true,
+      "field_map": {
+        "id": "descriptor.external_id",
+        "meta.versionId": "descriptor.external_version",
+        "resourceType": "descriptor.fhir_resource_type"
+      },
+      "mapping_version": "1.0",
+      "normative_equivalence_claimed": false,
+      "standard": "HL7-FHIR"
+    },
+    {
+      "external_standard_not_redefined": true,
+      "field_map": {
+        "Modality": "descriptor.modality",
+        "SOPInstanceUID": "descriptor.dicom_sop_instance_uid",
+        "StudyInstanceUID": "descriptor.dicom_study_instance_uid"
+      },
+      "mapping_version": "1.0",
+      "normative_equivalence_claimed": false,
+      "standard": "DICOM"
+    }
+  ],
+  "package": "healthcare"
+}

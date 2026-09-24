@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "authority_source": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "jurisdiction": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "organization": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "privacy_policy": {
+      "minLength": 1,
+      "type": "string"
+    }
+  },
+  "required": [
+    "organization",
+    "jurisdiction",
+    "authority_source",
+    "privacy_policy"
+  ],
+  "type": "object",
+  "x-entity-profile-is-not-regulatory-compliance": true
+}

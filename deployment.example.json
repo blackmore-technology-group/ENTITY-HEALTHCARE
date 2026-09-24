@@ -1,0 +1,11 @@
+{
+  "asset_kind": "clinical_dataset",
+  "configuration": {
+    "authority_source": "CONFIGURE-ME",
+    "jurisdiction": "CONFIGURE-ME",
+    "organization": "Example Organization",
+    "privacy_policy": "CONFIGURE-ME"
+  },
+  "note": "Replace CONFIGURE-ME values with organization-specific facts before deployment.",
+  "package": "healthcare"
+}

@@ -1,0 +1,65 @@
+{
+  "custody_is_not_authority": true,
+  "developer_configures_not_redesigns": true,
+  "economic_value_invented": false,
+  "evidence_does_not_establish_objective_truth": true,
+  "evidence_types": [
+    "DOCUMENT",
+    "REGISTRY_RECORD"
+  ],
+  "fail_closed": true,
+  "mappings": [
+    {
+      "external_standard_not_redefined": true,
+      "field_map": {
+        "id": "descriptor.external_id",
+        "meta.versionId": "descriptor.external_version",
+        "resourceType": "descriptor.fhir_resource_type"
+      },
+      "mapping_version": "1.0",
+      "normative_equivalence_claimed": false,
+      "standard": "HL7-FHIR"
+    },
+    {
+      "external_standard_not_redefined": true,
+      "field_map": {
+        "Modality": "descriptor.modality",
+        "SOPInstanceUID": "descriptor.dicom_sop_instance_uid",
+        "StudyInstanceUID": "descriptor.dicom_study_instance_uid"
+      },
+      "mapping_version": "1.0",
+      "normative_equivalence_claimed": false,
+      "standard": "DICOM"
+    }
+  ],
+  "name": "healthcare",
+  "object_types": {
+    "clinical_dataset": "DATASET",
+    "clinical_document": "DOCUMENT",
+    "diagnostic_model": "MODEL",
+    "medical_device": "DEVICE"
+  },
+  "package_sha256": "b4e901ce37f696fa10666839cb8d3cacbd1fe663070667ca1767a6245e7cf939",
+  "privacy": {
+    "default": "RESTRICTED_DISCLOSURE",
+    "minimum_data": true,
+    "purpose_bound": true
+  },
+  "profile_is_not_regulatory_compliance": true,
+  "profile_refs": [
+    "entity-profile:global@1.0",
+    "entity-profile:healthcare@1.0"
+  ],
+  "required_config": [
+    "organization",
+    "jurisdiction",
+    "authority_source",
+    "privacy_policy"
+  ],
+  "rights": [
+    "INSPECT",
+    "READ",
+    "DERIVE"
+  ],
+  "version": "1.0"
+}

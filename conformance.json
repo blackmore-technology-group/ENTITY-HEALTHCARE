@@ -1,0 +1,27 @@
+{
+  "core_semantics_changed": false,
+  "invalid": [
+    {
+      "asset_kind": "clinical_dataset",
+      "configuration": {},
+      "expected_valid": false
+    }
+  ],
+  "profile_stack": [
+    "entity-profile:global@1.0",
+    "entity-profile:healthcare@1.0"
+  ],
+  "schema": "entity-v3-industry-package-conformance-v1",
+  "valid": [
+    {
+      "asset_kind": "clinical_dataset",
+      "configuration": {
+        "authority_source": "CONFIGURE-ME",
+        "jurisdiction": "CONFIGURE-ME",
+        "organization": "Example Organization",
+        "privacy_policy": "CONFIGURE-ME"
+      },
+      "expected_valid": true
+    }
+  ]
+}

@@ -59,7 +59,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "4011830081e81568cb4a0f6cd77f79d7a567ae73d3fe62421699bedd0af50be9"
+      "sha256": "cd5bbee418b47000cefc71d27b3743db085a406307f31b947e346b422daefaf6"
     },
     {
       "path": "sdk/canonical_global_passport_sdk.py",

@@ -1,8 +1,10 @@
 # Healthcare — ENTITY v3.4.0 Domain Guide
 
+This guide documents the sealed v3.4.0 domain-package payload. That payload remains immutable and was requalified unchanged against the current ENTITY v3.4.1 core release.
+
 This repository is an executable **domain package for the one ENTITY Global Passport**. It does not create a separate passport protocol or sovereignty silo.
 
-- [ENTITY v3.4.0 core release](https://github.com/blackmore-technology-group/ENTITY/releases/tag/v3.4.0)
+- [ENTITY v3.4.1 current core release](https://github.com/blackmore-technology-group/ENTITY/releases/tag/v3.4.1)
 - [v3.4.0 documentation portal](https://github.com/blackmore-technology-group/ENTITY/blob/main/docs/v3.4/README.md)
 - [All six domain packages](https://github.com/blackmore-technology-group/ENTITY/blob/main/docs/v3.4/DOMAIN_PACKAGES.md)
 

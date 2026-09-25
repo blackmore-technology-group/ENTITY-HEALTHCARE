@@ -2,9 +2,11 @@
 
 **ENTITY v3.4.0 executable Healthcare implementation package.**
 
+**Current core compatibility:** ENTITY v3.4.1 — Protocol Origin Lineage & Sovereign User Bootstrap. The sealed domain-package payload remains v3.4.0 and was requalified unchanged against v3.4.1.
+
 This repository configures the **one ENTITY Global Passport** for healthcare workflows. It does not define a separate passport protocol and does not modify ENTITY core semantics.
 
-[ENTITY](https://github.com/blackmore-technology-group/ENTITY) · [v3.4.0 release](https://github.com/blackmore-technology-group/ENTITY/releases/tag/v3.4.0) · [Global Passport documentation](https://github.com/blackmore-technology-group/ENTITY/blob/main/docs/v3.4/GLOBAL_PASSPORT.md) · [Domain packages](https://github.com/blackmore-technology-group/ENTITY/blob/main/docs/v3.4/DOMAIN_PACKAGES.md)
+[ENTITY](https://github.com/blackmore-technology-group/ENTITY) · [v3.4.1 core release](https://github.com/blackmore-technology-group/ENTITY/releases/tag/v3.4.1) · [Global Passport documentation](https://github.com/blackmore-technology-group/ENTITY/blob/main/docs/v3.4/GLOBAL_PASSPORT.md) · [Domain packages](https://github.com/blackmore-technology-group/ENTITY/blob/main/docs/v3.4/DOMAIN_PACKAGES.md)
 
 ## What this package is for
 
@@ -53,7 +55,7 @@ The verifier checks the repository inventory and the package/source-release bind
 
 ## Go deeper
 
-- [ENTITY v3.4.0](https://github.com/blackmore-technology-group/ENTITY/releases/tag/v3.4.0)
+- [ENTITY v3.4.1 core](https://github.com/blackmore-technology-group/ENTITY/releases/tag/v3.4.1)
 - [Developer portal](https://github.com/blackmore-technology-group/ENTITY/blob/main/DEVELOPERS.md)
 - [Engineering evidence](https://github.com/blackmore-technology-group/ENTITY/blob/main/docs/ENGINEERING_EVIDENCE.md)
 - [Open contributor tasks](https://github.com/blackmore-technology-group/ENTITY/issues?q=is%3Aissue+is%3Aopen)
